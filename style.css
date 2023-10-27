@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: ligthgray;
+  }
+  
+  .main{
+    border: 1px solid darkgray;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 250px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    
+    }
+  
+  .display{
+    border: 1px solid darkgray;
+    width: 230px;
+    height: 400px;
+    margin-left: 9px;
+    margin-top: 40px;
+    background-color: white ;
+    position: absolute;
+    
+  }
+  
+  .display:hover{
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 2px 0px;
+    border: solid 1px rgb(74, 74, 212);
+  }
+  .finger{
+    border: solid 1px darkgray;
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    margin-top: 450px;
+    margin-left: 105px;
+    position: relative;
+  }
+  
+  .finger:hover{
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 2px 0px;
+    border: solid 1px rgb(74, 74, 212);
+  }
